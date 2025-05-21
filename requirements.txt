@@ -1,0 +1,6 @@
+flet
+sqlalchemy
+python-dotenv
+requests
+google-generativeai
+certifi

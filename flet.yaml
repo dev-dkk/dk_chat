@@ -1,0 +1,22 @@
+# dk_chat/flet.yaml
+
+name: DK Chat
+version: 1.0.0 # Versão do seu app
+build: 1       # Número do build (incremente a cada novo build)
+
+title: DK Chat # Título que aparecerá na barra de título ou gerenciador de apps
+description: Um aplicativo de chat inteligente semelhante ao ChatGPT. # Descrição curta
+author: DK Developer # Seu nome
+email: santos.c.derick@gmail.com # Email de contato (opcional)
+url: https://dk-developer.com # Website do app ou seu (opcional)
+
+# Ícone do Aplicativo:
+# Caminho relativo à raiz do projeto.
+# Certifique-se que assets/logo.png existe e é o seu ícone desejado.
+icon: assets/logo.png
+
+# Outras configurações específicas do build podem ser adicionadas aqui conforme necessário.
+# Por exemplo, para Android (opcional, Flet tentará usar padrões sensatos):
+# android:
+#   package_name: com.seudominio.dkchat # Nome do pacote Java (ex: com.meuapp.dkchat)
+#   app_name: DK Chat
