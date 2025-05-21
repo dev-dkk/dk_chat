@@ -1,10 +1,10 @@
 import flet as ft
-import os # Certifique-se que 'os' está importado
+import os
 from ui.splash_screen import SplashScreen
 from ui.chat_screen import ChatScreen
 from core.db_manager import get_db, create_chat_session, get_last_session
 
-# Defina o diretório de assets
+# Definir o diretório de assets
 ASSETS_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), 'assets'))
 
 def main(page: ft.Page):
@@ -13,8 +13,7 @@ def main(page: ft.Page):
     page.vertical_alignment = ft.MainAxisAlignment.CENTER
     page.horizontal_alignment = ft.CrossAxisAlignment.CENTER
     page.window_resizable = True
-
-    # Configura o diretório de assets para a página
+    
     if os.path.exists(ASSETS_DIR):
         page.assets_dir = ASSETS_DIR
         print(f"DK Chat: Diretório de assets configurado: {ASSETS_DIR}")
